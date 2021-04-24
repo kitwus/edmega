@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1c044d788d2df6df8370ed2181c1292b",
+    "packages": [
+        {
+            "name": "dkrnl/simplexmlreader",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dkrnl/SimpleXMLReader.git",
+                "reference": "937ffa10ceda80ad51b071862462251169db3a9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dkrnl/SimpleXMLReader/zipball/937ffa10ceda80ad51b071862462251169db3a9a",
+                "reference": "937ffa10ceda80ad51b071862462251169db3a9a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-xmlreader": "*",
+                "lib-libxml": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PDDL-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "dkrnl",
+                    "homepage": "http://dpyatkov.ru/"
+                }
+            ],
+            "description": "Wrapper XMLReader class, for simple SAX-reading(and simple XPath-queries) of huge(testing over 1G file) xml.",
+            "homepage": "https://github.com/dkrnl/SimpleXMLReader",
+            "keywords": [
+                "SimpleXML",
+                "XMLReader",
+                "iterator",
+                "xml"
+            ],
+            "time": "2018-02-14T04:55:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

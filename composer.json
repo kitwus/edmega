@@ -1,0 +1,12 @@
+{
+  "require": {
+    "dkrnl/simplexmlreader": "^1.1",
+    "jmathai/php-multi-curl": "dev-master",
+    "sentry/sentry": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Anonym\\": "./"
+    }
+  }
+}
